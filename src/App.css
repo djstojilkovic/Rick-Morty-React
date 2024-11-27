@@ -18,7 +18,7 @@
 body {
   /* min-height: 100vh; */
   background-image: url(https://wallpapers.com/images/featured/rick-and-morty-cool-pictures-t3ynu5ly9m7jq6e2.jpg);
-  font-family: RM;
+  /* font-family: RM; */
 }
 .characters {
   display: flex;
@@ -30,25 +30,26 @@ body {
   /* background-color: whitesmoke;
     overflow-y: scroll; */
   margin: 10vh auto;
-  padding: 20px;
+  /* padding: 20px; */
 }
 .characters h3 {
   color: rgb(255, 166, 0);
 }
-.characters > div {
+.characters div {
   border-radius: 10px;
   margin: 10px;
   background-color: rgba(73, 68, 86, 0.8);
-  width: 19%;
+  width: 70%;
   text-align: center;
   height: fit-content;
+  font-family: RM;
 }
-.characters > div > img {
+.characters img {
   width: 100%;
   border-radius: 10px;
   cursor: pointer;
 }
-.characters > div > button {
+.characters button {
   width: 80%;
   height: 30px;
   margin-bottom: 20px;
@@ -59,7 +60,7 @@ body {
   cursor: pointer;
   border-radius: 8px;
 }
-.characters > div > button:hover {
+.characters button:hover {
   background-color: rgb(7, 168, 77, 0.8);
 }
 .episodes {
@@ -134,4 +135,5 @@ body {
 }
 .single-page {
   animation: 1.5s ease-out 0s 1 slideInFromLeft;
+  font-family: RM;
 }
