@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.single-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(73, 68, 86, 0.8);
+  width: 30%;
+  font-size: 20px;
+  margin: 70px auto;
+  border-radius: 70px;
+  padding: 40px;
+  color: rgb(255, 166, 0);
+}
+.img-div {
+  padding: 40px;
+}
+.img-div > img {
+  width: 420px;
+}
+.info-div {
+  padding: 40px;
+  text-align: center;
+}
+/* .info-div>h2{
+    padding: 10px;
+  } */
